@@ -1,6 +1,10 @@
 # generated using arion, do not edit manually. Override using docker-compose.override.yml
 services:
   devcontainer:
+    build:
+      context: .
+      args:
+        NIX_PACKAGES: "dbus nix"
     cap_add:
     - CAP_NET_ADMIN
     - SYS_ADMIN
@@ -16,7 +20,6 @@ services:
     tmpfs:
     - /run
     - /run/wrappers
-    - /run/dbus
     tty: true
     volumes:
     - /sys/fs/cgroup:/sys/fs/cgroup:ro
