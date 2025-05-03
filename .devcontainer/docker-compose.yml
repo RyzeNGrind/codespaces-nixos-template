@@ -5,6 +5,8 @@ services:
       context: .
       args:
         NIX_PACKAGES: "dbus nix"
+    environment:
+      NIX_PATH: nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixpkgs
     cap_add:
     - CAP_NET_ADMIN
     - SYS_ADMIN
