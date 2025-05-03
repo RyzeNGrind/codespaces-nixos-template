@@ -16,6 +16,7 @@ services:
     tmpfs:
     - /run
     - /run/wrappers
+    - /run/dbus
     tty: true
     volumes:
     - /sys/fs/cgroup:/sys/fs/cgroup:ro
