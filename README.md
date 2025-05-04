@@ -70,3 +70,29 @@ No worries, spreading the words or starring the repo might help as well. Thank y
 - The main devcontainer image is developed in a separate repo: [github:lucernae/devcontainer-nix](https://github.com/lucernae/devcontainer-nix). Go there if you want discuss how to add new features, report bugs, regarding the main image.
 - Thanks to [Arion](https://github.com/hercules-ci/arion). I built the image in Nix using this tools.
 - Thanks to Nix Community who helps and provides docs/articles for introverts like me.
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/ryzengrind/codespaces-nixos-template)
+
+Programmed with: [![Nix](https://img.shields.io/badge/Nix-5277C3?logo=nixos&logoColor=fff)](#)
+
+[![](https://raw.githubusercontent.com/dch82/Nixpkgs-Badges/main/nixpkgs-badge-dark.svg)](https://search.nixos.org/packages?size=1&show={{PACKAGENAME}})
+
+[![Built with Nix badge](https://img.shields.io/badge/Built_With-Nix-5277C3.svg?logo=nixos&labelColor=73C3D5)](https://www.nixos.org/)
+
+Built on [![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white)](#)
+
+<img width='200' src="https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white" />
+
+CI: <img width='200' src="https://img.shields.io/badge/Github%20Actions-282a2e?style=for-the-badge&logo=githubactions&logoColor=367cfe" />
+
+<img width='200' src="https://github-readme-activity-graph.vercel.app/graph?username=ryzengrind&theme=merko" />
+
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+
+
+
+![image]({BadgeURLHere})
+![image]({BadgeURLHere})
+![image]({BadgeURLHere})

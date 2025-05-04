@@ -3,6 +3,7 @@ services:
     image: ghcr.io/ryzengrind/devcontainer-nix:main
     environment:
       USE_DIRENV: "true"
+      USE_FLAKE: "true"
       CUSTOM_ENV_VAR: "value"
     volumes:
       - ./data:/data:rw
