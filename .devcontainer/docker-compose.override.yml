@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  devcontainer:
+    image: ghcr.io/RyzeNGrind/devcontainer-nix:main
+    volumes:
+      - ./custom-config:/custom-config:ro
+    environment:
+      CUSTOM_ENV_VAR: "value"
