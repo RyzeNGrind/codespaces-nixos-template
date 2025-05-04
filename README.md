@@ -1,5 +1,7 @@
 # NixOS as GitHub Codespace template
 
+[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
+
 Click the button below to open the repo in GitHub codespace.
 
 [![Open the repo in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=566484321)
