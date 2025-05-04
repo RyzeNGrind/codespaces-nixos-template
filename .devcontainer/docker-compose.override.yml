@@ -1,7 +1,6 @@
-version: '3.4'
 services:
   devcontainer:
-    image: ghcr.io/RyzeNGrind/devcontainer-nix:main
+    image: ghcr.io/ryzengrind/devcontainer-nix:main
     environment:
       USE_DIRENV: "true"
       CUSTOM_ENV_VAR: "value"
