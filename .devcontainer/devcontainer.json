@@ -7,7 +7,8 @@
 	// Update the 'dockerComposeFile' list if you have more compose files or use different names.
 	// The .devcontainer/docker-compose.yml file contains any overrides you need/want to make.
 	"dockerComposeFile": [
-		"docker-compose.yml"
+		"docker-compose.yml",
+		"docker-compose.override.yml"
 	],
 
 	"overrideCommand": false,
@@ -30,20 +31,26 @@
 	// "shutdownAction": "none",
 
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
-	"postCreateCommand": "nix-channel --update && nix-env -iA nixpkgs.dbus nixpkgs.nix",
+	// "postCreateCommand": "nix-channel --update && nix-env -iA nixpkgs.dbus nixpkgs.nix",
+	"postCreateCommand": "bash /usr/local/lib/library-scripts/post-create.sh || echo 'Post-create command failed, continuing anyway'",
 
 	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "root",
+	"remoteUser": "vscode",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-vscode.makefile-tools",
 				"ms-azuretools.vscode-docker",
+				"KaliaHayes.kolada",
 				"arrterian.nix-env-selector",
 				"bbenoist.Nix",
 				"jnoortheen.nix-ide",
-				"brettm12345.nixfmt-vscode"
-			]
+				"kamadorueda.alejandra",
+				"mkhl.direnv",
+				"ieviev.nix-vscode-completions"
+			],
+			"settings": {
+				"workbench.colorTheme": "Kolada"
+			}
 		}
 	}
 }

@@ -35,6 +35,7 @@ in {
     acl
     arion
     docker-client
+    nix2container
     devcontainer-patch
   ];
   nix = {
