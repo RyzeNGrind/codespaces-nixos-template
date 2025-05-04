@@ -2,7 +2,7 @@
 FROM ghcr.io/lucernae/devcontainer-nix:main--nixos-arion
 
 # Add and update nixpkgs channel
-RUN nix-channel --add https://nixos.org/channels/nixpkgs-23.05 nixpkgs && \
+RUN nix-channel --add https://nixos.org/channels/nixpkgs-24.11 nixpkgs && \
     nix-channel --update
 
 # Create nixbld group and add build users
