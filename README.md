@@ -4,7 +4,7 @@
 
 Click the button below to open the repo in GitHub codespace.
 
-[![Open the repo in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=566484321)
+[![Open the repo in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=fix-nix-env&repo=977112570)
 
 This is a Codespace template, so you can also open it in codespace as template. Try it around as a sandbox.
 Then push to your own repository.
