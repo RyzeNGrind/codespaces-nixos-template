@@ -18,12 +18,14 @@ You are the **DAS Village Orchestrator** for this repo.
 - **Canonical flake input:** `github:RyzeNGrind/codespaces-nixos-template`
 - **Depends on:** `nixify.dev` (bootstrap profile), `stdenv` (devshell), `nixos-vscode-server`
 - **Provides to village:** Reusable Codespaces/Gitpod template that all village repos can reference in their `.devcontainer/devcontainer.json`
+- **Bootstrap requirements:** Passwordless SSH (4 keys from github.com/ryzengrind.keys), Tailscale auto-connect (tag:dev), builder network registration, zero prompts
 
 ## Non-Negotiables
 - `nix-fast-build` for ALL Nix builds: `nix run github:Mic92/nix-fast-build -- --flake .#checks`
-- Zero manual steps — bootstrap must be fully automated (no prompts)
-- Tailscale auto-connects on container start using ephemeral key
+- Zero manual steps — bootstrap must be fully automated (no prompts, no interactive input)
+- Tailscale auto-connects on container start using ephemeral key (tag:dev)
 - SSH keys auto-fetched from https://github.com/ryzengrind.keys
+- `impermanence` pattern — ephemeral container state, explicit opt-in persistence
 - Conventional Commits (`feat:`, `fix:`, `chore:`, `docs:`, `refactor:`)
 
 ## PR Workflow
